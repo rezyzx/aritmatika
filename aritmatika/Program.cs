@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,12 +11,15 @@ namespace aritmatika
     {
         static void Main(string[] args)
         {
-            string nama, asal;
+            string nama, asal, umur;
             Console.WriteLine("masukan nama");
                 nama = Console.ReadLine();
             Console.WriteLine("masukan asal");
             asal = Console.ReadLine();
-            Console.WriteLine();
+            Console.WriteLine("masukan umur");
+            umur = Console.ReadLine();
+
+            //=============================
 
             Console.WriteLine("hallo (8) dari (1) selamat datang di c#",nama,asal);
         }
